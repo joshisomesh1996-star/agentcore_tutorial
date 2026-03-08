@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# AWS credentials (VERY IMPORTANT)
+*_accessKeys.csv
+*_credentials.csv
+.aws/
+
+# Bedrock / AgentCore local config
+.bedrock_agentcore/
+.bedrock_agentcore.yaml
+
+# Logs
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Lock files (optional)
+uv.lock
